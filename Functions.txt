@@ -1,0 +1,1 @@
+//THere are 3 types of functions(Local, Global and static).
