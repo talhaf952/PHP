@@ -1,0 +1,8 @@
+The PHP var_dump() function returns the data type and value
+
+<?php
+$x = 5985;
+var_dump($x);
+?>
+
+output: int(5985)
