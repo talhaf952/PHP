@@ -17,3 +17,19 @@ string(5) "Talha"
 */
 
 
+<?php
+$X=34653;
+var_dump($X);
+print "<br>";
+
+$X="Talha";
+var_dump($X);
+echo "<br>";
+
+$Y='A';
+VAR_DUMP($Y);
+?>
+//OutPut:
+//int(34653)
+//string(5) "Talha"
+//string(1) "A"
