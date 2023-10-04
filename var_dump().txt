@@ -5,4 +5,15 @@ $x = 5985;
 var_dump($x);
 ?>
 
-output: int(5985)
+//output: int(5985)
+
+
+$X="Talha";
+var_dump($X);
+
+/* OutPut:
+int(34653)
+string(5) "Talha"
+*/
+
+
