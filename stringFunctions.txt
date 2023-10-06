@@ -15,4 +15,9 @@ echo"\n";
 //strpos() - Search For a Text Within a String
 echo strpos("Hi! I am Muhammad Talha Farooq.","Muhammad");
 echo"\n";
+
+//str_replace() - Replace Text Within a String
+echo str_replace("M.","Muhammad","Hello! I am M. Talha Farooq");
+echo "\n";
+
 ?>
