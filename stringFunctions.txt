@@ -1,0 +1,6 @@
+<?php
+//PHP String Functions
+//strlen()    returns string length
+echo strlen("Hi! I am Talha.");
+
+?>
