@@ -2,5 +2,8 @@
 //PHP String Functions
 //strlen()    returns string length
 echo strlen("Hi! I am Talha.");
+echo "\n";
 
+//The PHP str_word_count() function counts the number of words in a string.
+echo str_word_count("Hello! I am MUhammad Talha Farooq.");
 ?>
