@@ -15,6 +15,9 @@ echo"\n";
 echo strrev("1 2 3 4 5 6 7 8 9 10");
 echo"\n";
 
+echo strrev("A B C 1 2 3");
+echo"\r";
+
 //strpos() - Search For a Text Within a String
 echo strpos("Hi! I am Muhammad Talha Farooq.","Muhammad");
 echo"\n";
