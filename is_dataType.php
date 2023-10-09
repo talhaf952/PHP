@@ -1,6 +1,10 @@
 <?php
 $x=4566667;
 $y=3546.676;
+$z="Talha";
+$a='Ali';
 var_dump(is_int($x));
 var_dump(is_int($y));
+var_dump(is_string($z));
+var_dump(is_int($a));
 ?>
