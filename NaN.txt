@@ -7,3 +7,18 @@ var_dump($x);
 
 //OutPut
 //float(NAN)
+
+
+
+<?php
+// Invalid calculation will return a NaN value
+$x = acos(8);
+var_dump($x);
+$y= 9;
+var_dump($y);
+?>  
+
+//output
+//float(NAN)
+//int(9)
+
