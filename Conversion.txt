@@ -13,7 +13,20 @@ $convert=(int)$x;
 echo "$convert";
 echo"\nThe Type and Value is: ";
 var_dump($convert);
+
+
+echo"\n\nEnter any number:";
+$x="How are you?";
+echo "$x";
+echo"\nThe Type and Value is: ";
+var_dump($x);
+echo"\n";
+//After Type Castig to int
+//To Int 
+$convert=(int)$x;
+echo "$convert";
+echo"\nThe Type and Value is: ";
+var_dump($convert);
+
+
 ?>
-
-
-//Output
