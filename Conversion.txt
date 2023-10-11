@@ -30,3 +30,16 @@ var_dump($convert);
 
 
 ?>
+
+
+//Output
+Enter any number:34.5456
+The Type and Value is: float(34.5456)
+34
+The Type and Value is: int(34)
+
+
+Enter any number:How are you?
+The Type and Value is: string(12) "How are you?"
+0
+The Type and Value is: int(0)
