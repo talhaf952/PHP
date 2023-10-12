@@ -16,6 +16,12 @@ echo "Not Identical(!==)\n";
 var_dump($x!==$y);
 var_dump($a!==$x);
 var_dump($y!==$z);
+echo"========================================================\n";
+echo "Spaceship(<=>)\n";
+echo ($x<=>$a),"\n";
+echo ($a<=>$x),"\n";
+echo ($x<=>$y),"\n";
+echo ($y<=>$z),"\n";
 ?>
 
 
