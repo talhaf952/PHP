@@ -1,0 +1,12 @@
+<?php
+//  Some Special operators
+echo "Identical(===)\n";
+$x=150;
+$y="150";
+$z="150";
+var_dump($x===$y);
+var_dump($y===$z);
+
+?>
+
+
