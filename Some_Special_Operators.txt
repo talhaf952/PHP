@@ -8,11 +8,14 @@ $z="150";
 var_dump($x===$y);
 var_dump($y===$z);
 echo"========================================================\n";
+echo "Not equal to(<>)\n";
 var_dump($x<>$y);
 var_dump($a<>$x);
-
-
-
+echo"========================================================\n";
+echo "Not Identical(!==)\n";
+var_dump($x!==$y);
+var_dump($a!==$x);
+var_dump($y!==$z);
 ?>
 
 
