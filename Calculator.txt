@@ -1,5 +1,5 @@
 //Calculator.
 <?php
-echo "Calculator Performing basic operations";
+echo "Calculator Performing basic operations\n";
 echo "Enter 1st number: ";
 ?>
