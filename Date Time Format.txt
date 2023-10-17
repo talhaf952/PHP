@@ -10,5 +10,21 @@ echo date('m');
 //Year with four digits (e.g., 2023):
 echo "\nCurrent Year is: ";
 echo date('Y');//y in 2 digits(23), Y in 4 digits(2023).
+//Hour in 24-hour format (00 - 23):
+echo "\nCurrent Hour is: ";
+echo date('H'); //h in 12 hour format, H in 24 hour format
+//Minutes (00 - 59):
+echo "\nCurrent Minutes are: ";
+echo date('i');
+//Seconds (00 - 59):
+echo "\nCurrent Seconds are: ";
+echo date('s');
+//Lowercase "am" or "pm":
+echo "\nCurrent am/pm: ";
+echo date('a');
+//Uppercase "am" or "pm":
+echo "\nCurrent am/pm: ";
+echo date('A');
+
 
 ?>
