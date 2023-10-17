@@ -1,8 +1,14 @@
 <?php
 //Data Function
 Echo "Date Time Format.\n";
+//Day of the month (01 - 31):
 echo "Date today is:";
 echo date("d\n");
+//Month (01 - 12):
 echo "Current month is: ";
 echo date('m');
+//Year with four digits (e.g., 2023):
+echo "\nCurrent Year is: ";
+echo date('Y');//y in 2 digits(23), Y in 4 digits(2023).
+
 ?>
