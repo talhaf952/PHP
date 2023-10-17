@@ -2,5 +2,7 @@
 //Data Function
 Echo "Date Time Format.\n";
 echo "Date today is:";
-echo date('d');
+echo date("d\n");
+echo "Current month is: ";
+echo date('m');
 ?>
