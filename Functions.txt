@@ -1,7 +1,8 @@
-<?php                                                                                                                     
+<?php
+//functions
 function Name($x)
 {
-    echo "$x Farooq.\n";
+    echo "$x.\n";
 }
 Name("Talha");
 Name("Haider");
