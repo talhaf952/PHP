@@ -7,5 +7,4 @@ function Name($x)
 Name("Talha");
 Name("Haider");
 Name("Zunorain");
-Name("Humaira");
 ?>
