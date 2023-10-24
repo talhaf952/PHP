@@ -1,0 +1,10 @@
+<?php
+$x=array("One","Two","Three");
+sort($x);
+$clength=count($x);
+for($y=0;$y<$clength;$y++)
+{
+    echo $x[$y];
+    echo "\n";
+}
+?>
