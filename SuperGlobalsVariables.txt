@@ -9,3 +9,18 @@ $_FILES
 $_ENV
 $_COOKIE
 $_SESSION
+
+
+<?php
+$b = 25;
+$c = 25;
+ 
+function addition() {
+  $GLOBALS['a'] = $GLOBALS['b'] + $GLOBALS['c'];
+}
+ 
+addition();
+echo $a;
+?>
+
+//output: 50
