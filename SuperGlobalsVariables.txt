@@ -12,15 +12,39 @@ $_SESSION
 
 
 <?php
-$b = 25;
-$c = 25;
- 
-function addition() {
-  $GLOBALS['a'] = $GLOBALS['b'] + $GLOBALS['c'];
+$x=50;
+$y=60;
+function add()
+{
+$GLOBALS['a']=$GLOBALS['x']+$GLOBALS['y'];
 }
- 
-addition();
+add();
+echo $a;
+echo"\n";
+function sub()
+{
+$GLOBALS['a']=$GLOBALS['x']-$GLOBALS['y'];
+}
+sub();
+echo $a;
+echo"\n";
+function pro()
+{
+$GLOBALS['a']=$GLOBALS['x']*$GLOBALS['y'];
+}
+pro();
+echo $a;
+echo"\n";
+function div()
+{
+$GLOBALS['a']=$GLOBALS['x']/$GLOBALS['y'];
+}
+div();
 echo $a;
 ?>
 
-//output: 50
+\\Output
+110
+-10
+3000
+0.83333333333333
