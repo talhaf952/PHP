@@ -1,0 +1,3 @@
+$_SERVER['PHP_SELF']		Returns the filename of the currently executing script
+$_SERVER['SERVER_NAME']		Returns the name of the host server
+
