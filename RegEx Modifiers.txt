@@ -1,0 +1,2 @@
+Regular Expression Modifiers
+i	Performs a case-insensitive search
