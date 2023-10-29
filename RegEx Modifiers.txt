@@ -1,3 +1,4 @@
 Regular Expression Modifiers
 i	  Performs a case-insensitive search
 m	   Performs a multiline search (patterns that search for the beginning or end of a string will match the beginning or end of each line)
+u	    Enables correct matching of UTF-8 encoded patterns
