@@ -2,3 +2,8 @@ A regular expression is a sequence of characters that forms a search pattern. Wh
 A regular expression can be a single character, or a more complicated pattern.
 
 Regular expressions can be used to perform all types of text search and text replace operations.
+Using preg_match()
+Using preg_match_all()
+Using preg_replace()
+
+
