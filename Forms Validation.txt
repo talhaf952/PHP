@@ -2,3 +2,5 @@ The HTML form we will be working at in these chapters, contains various input fi
 
 Field	  Validation Rules
 Name	  Required. + Must only contain letters and whitespace
+E-mail	Required. + Must contain a valid email address (with @ and .)
+Website	Optional. If present, it must contain a valid URL
