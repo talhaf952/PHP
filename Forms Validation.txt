@@ -1,1 +1,4 @@
 The HTML form we will be working at in these chapters, contains various input fields: required and optional text fields, radio buttons, and a submit button:
+
+Field	  Validation Rules
+Name	  Required. + Must only contain letters and whitespace
