@@ -1,0 +1,7 @@
+From the validation rules table on the previous page, we see that the "Name", "E-mail", and "Gender" fields are required. These fields cannot be empty and must be filled out in the HTML form.
+
+Name	  Required. + Must only contain letters and whitespace
+E-mail	Required. + Must contain a valid email address (with @ and .)
+Website	Optional. If present, it must contain a valid URL
+Comment	Optional. Multi-line input field (textarea)
+Gender	Required. Must select one
