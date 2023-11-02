@@ -4,3 +4,9 @@ $name = test_input($_POST["name"]);
 if (!preg_match("/^[a-zA-Z-' ]*$/",$name)) {
   $nameErr = "Only letters and white space allowed";
 }
+
+
+PHP - Validate E-mail
+The easiest and safest way to check whether an email address is well-formed is to use PHP's filter_var() function.
+
+In the code below, if the e-mail address is not well-formed, then store an error message:
