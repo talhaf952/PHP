@@ -3,4 +3,4 @@ $_SERVER['SERVER_NAME']		Returns the name of the host server
 $_SERVER['HTTP_HOST']		  Returns the Host header from the current request
 $_SERVER['HTTPS']		      Is the script queried through a secure HTTP protocol
 $_SERVER['HTTP_REFERER']	Returns the complete URL of the current page
-$_SERVER['REQUEST_METHOD']	
+$_SERVER['REQUEST_METHOD']	Returns the request method used to access the page 
