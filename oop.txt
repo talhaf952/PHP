@@ -9,6 +9,9 @@ OOP makes it possible to create full reusable applications with less code and sh
 
 The "Don't Repeat Yourself" (DRY) principle is about reducing the repetition of code. We should extract out the codes that are common for the application, and place them at a single place and reuse them instead of repeating it.
 
+Classes and objects are the two main aspects of object-oriented programming.
+A class is a template for objects, and an object is an instance of a class.
+When the individual objects are created, they inherit all the properties and behaviors from the class, but each object will have different values for the properties.
 //OOP Pillars
 
 //Basically there are 4 pillars of oop
