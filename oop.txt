@@ -28,6 +28,24 @@ A constructor allows us to initialize an object's properties upon creation of th
 If we create a __construct() function, PHP will automatically call this function when we create an object from a class.
 Notice that the construct function starts with two underscores (__)!
 
+---------------------------------
+<?php
+class Fruit {
+  public $name;
+  public $color;
+
+  function __construct($name) {
+    $this->name = $name;
+  }
+  function get_name() {
+    return $this->name;
+  }
+}
+
+$apple = new Fruit("Apple");
+echo $apple->get_name();
+?>
+---------------------------------
 //OOP Pillars
 
 //Basically there are 4 pillars of oop
