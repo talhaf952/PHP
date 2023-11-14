@@ -26,6 +26,8 @@ In a class, variables are called properties and functions are called methods!
 A constructor allows us to initialize an object's properties upon creation of the object.
 
 If we create a __construct() function, PHP will automatically call this function when we create an object from a class.
+Notice that the construct function starts with two underscores (__)!
+
 //OOP Pillars
 
 //Basically there are 4 pillars of oop
