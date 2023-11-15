@@ -46,6 +46,11 @@ $apple = new Fruit("Apple");
 echo $apple->get_name();
 ?>
 ---------------------------------
+
+PHP - The __destruct Function
+A destructor is called when the object is destructed or the script is stopped or exited.
+
+======================================================================
 //OOP Pillars
 
 //Basically there are 4 pillars of oop
