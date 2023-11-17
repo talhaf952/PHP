@@ -123,3 +123,6 @@ Abstraction.
 Encapsulation.
 Inheritance.
 Polymorphism.
+------------------------------------------------------------------------
+
+OOP - Inheritance
