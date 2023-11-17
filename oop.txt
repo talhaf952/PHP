@@ -126,3 +126,4 @@ Polymorphism.
 ------------------------------------------------------------------------
 
 OOP - Inheritance
+Inheritance in OOP = When a class derives from another class.
