@@ -154,3 +154,6 @@ $strawberry = new Strawberry("Strawberry", "red");
 $strawberry->message();
 $strawberry->intro();
 ?>
+
+The Strawberry class is inherited from the Fruit class.
+
