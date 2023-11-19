@@ -160,3 +160,7 @@ The Strawberry class is inherited from the Fruit class.
 This means that the Strawberry class can use the public $name and $color properties as well as the public __construct() and intro() methods from the Fruit class because of inheritance.
 -------------------------------------------------------------
 OOP - Class Constants
+PHP - Class Constants
+Class constants can be useful if we need to define some constant data within a class.
+A class constant is declared inside a class with the const keyword.
+A constant cannot be changed once it is declared.
