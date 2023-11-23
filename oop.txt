@@ -188,3 +188,6 @@ class Goodbye {
 $goodbye = new Goodbye();
 $goodbye->byebye();
 ?>
+
+-------------------------------------------
+PHP OOP - Abstract Classes
