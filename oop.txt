@@ -191,3 +191,4 @@ $goodbye->byebye();
 
 -------------------------------------------
 PHP OOP - Abstract Classes
+Abstract classes and methods are when the parent class has a named method, but need its child class(es) to fill out the tasks.
