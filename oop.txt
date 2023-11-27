@@ -223,3 +223,9 @@ public function __construct($name) {
   }
   abstract public function intro() : string;
 }
+// Child classes
+class Audi extends Car {
+  public function intro() : string {
+    return "Choose German quality! I'm an $this->name!";
+  }
+}
