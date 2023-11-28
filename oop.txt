@@ -235,3 +235,9 @@ class Volvo extends Car {
     return "Proud to be Swedish! I'm a $this->name!";
   }
 }
+
+class Citroen extends Car {
+  public function intro() : string {
+    return "French extravagance! I'm a $this->name!";
+  }
+}
