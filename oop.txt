@@ -241,3 +241,8 @@ class Citroen extends Car {
     return "French extravagance! I'm a $this->name!";
   }
 }
+
+// Create objects from the child classes
+$audi = new audi("Audi");
+echo $audi->intro();
+echo "<br>";
