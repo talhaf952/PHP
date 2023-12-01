@@ -1,3 +1,5 @@
+
+Procedural programming is about writing procedures or functions that perform operations on the data,
 Object-oriented programming has several advantages over procedural programming:
 
 OOP is faster and easier to execute
