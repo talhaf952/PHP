@@ -1,0 +1,27 @@
+<?php
+echo "1st Line\n";
+echo "2nd line";
+?>
+
+PHP is an acronym for "PHP: Hypertext Preprocessor"
+Not Case Sensitive Language
+In PHP, keywords (e.g. if, else, while, echo, etc.), classes, functions, and user-defined functions are not case-sensitive.
+However; all variable names are case-sensitive
+
+In PHP, a variable starts with the $ sign, followed by the name of the variable:
+PHP is a Loosely Typed Language
+We donot have to tell PHP which data type the variable is. PHP automatically associates a data type to the variable, depending on its value.
+
+To get the data type of a variable, use the var_dump() function.
+
+PHP has three different variable scopes:
+local
+global
+static
+
+A variable declared outside a function has a GLOBAL SCOPE and can only be accessed outside a function:
+A variable declared within a function has a LOCAL SCOPE and can only be accessed within that function:
+
+The global keyword is used to access a global variable from within a function.
+To do this, use the global keyword before the variables (inside the function):
+
