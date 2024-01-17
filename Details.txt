@@ -43,3 +43,39 @@ You can get the data type of any object by using the var_dump() function.
 Strings in PHP are surrounded by either double quotation marks, or single quotation marks.
 Double quoted string literals perform operations for special characters
 Single quoted strings does not perform such actions, it returns the string like it was written, with the variable name
+
+
+The PHP strlen() function returns the length of a string.
+echo strlen("Hello world!");
+
+The PHP str_word_count() function counts the number of words in a string.
+echo str_word_count("Hello world!");
+
+The PHP strpos() function searches for a specific text within a string.
+echo strpos("Hello world!", "world");
+
+The strtoupper() function returns the string in upper case:
+$x = "Hello World!";
+echo strtoupper($x);
+
+The strtolower() function returns the string in lower case:
+$x = "Hello World!";
+echo strtolower($x);
+
+The PHP str_replace() function replaces some characters with some other characters in a string.
+$x = "Hello World!";
+echo str_replace("World", "Dolly", $x);
+
+The PHP strrev() function reverses a string.
+$x = "Hello World!";
+echo strrev($x);
+
+Remove Whitespace
+Whitespace is the space before and/or after the actual text, and very often you want to remove this space.
+The trim() removes any whitespace from the beginning or the end:
+$x = " Hello World! ";
+echo trim($x);
+
+Convert String into Array
+The PHP explode() function splits a string into an array.
+The first parameter of the explode() function represents the "separator". The "separator" specifies where to split the string.
