@@ -273,3 +273,13 @@ echo $_SERVER['HTTP_REFERER'];
 echo $_SERVER['HTTP_USER_AGENT'];
 echo $_SERVER['SCRIPT_NAME'];
 
+$_REQUEST
+$_REQUEST is a PHP super global variable which contains submitted form data, and all cookie data.
+In other words, $_REQUEST is an array containing data from $_GET, $_POST, and $_COOKIE.
+When a user clicks the submit button, the form data is sent to a PHP file specified in the action attribute of the <form> tag.
+In the action file we can use the $_REQUEST variable to collect the value of the input field.
+
+PHP $_POST
+$_POST contains an array of variables received via the HTTP POST method.
+There are two main ways to send variables via the HTTP Post method:
+HTML forms
