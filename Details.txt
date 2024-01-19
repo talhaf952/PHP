@@ -283,3 +283,11 @@ PHP $_POST
 $_POST contains an array of variables received via the HTTP POST method.
 There are two main ways to send variables via the HTTP Post method:
 HTML forms
+JavaScript HTTP requests
+
+PHP $_GET
+$_GET contains an array of variables received via the HTTP GET method.
+There are two main ways to send variables via the HTTP GET method:
+Query strings in the URL
+HTML Forms
+
