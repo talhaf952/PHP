@@ -291,3 +291,4 @@ There are two main ways to send variables via the HTTP GET method:
 Query strings in the URL
 HTML Forms
 
+Regular Expressions
