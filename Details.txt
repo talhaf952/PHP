@@ -331,5 +331,12 @@ i	Performs a case-insensitive search
 m	Performs a multiline search (patterns that search for the beginning or end of a string will match the beginning or end of each line)
 u	Enables correct matching of UTF-8 encoded patterns
 
+Regular Expression Patterns
+Expression	Description
+[abc]	Find one character from the options between the brackets
+[^abc]	Find any character NOT between the brackets
+[0-9]	Find one character from the range 0 to 9
 
+If your expression needs to search for one of the special characters you can use a backslash ( \ ) to escape them. For example, to search 
+for one or more question marks you can use the following expression: $pattern = '/\?+/';
 
