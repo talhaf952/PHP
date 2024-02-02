@@ -1,6 +1,4 @@
-<?php
-echo "1st Line\n";
-?>
+
 
 PHP is an acronym for "PHP: Hypertext Preprocessor"
 Not Case Sensitive Language
