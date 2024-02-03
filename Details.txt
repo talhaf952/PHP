@@ -339,9 +339,7 @@ Expression	Description
 If your expression needs to search for one of the special characters you can use a backslash ( \ ) to escape them. For example, to search 
 for one or more question marks you can use the following expression: $pattern = '/\?+/';
 
-Grouping:
-You can use parentheses ( ) to apply quantifiers to entire patterns. They also can be used to select parts of the pattern to be used as a match.
-Use grouping to search for the word "banana" by looking for ba followed by two instances of na:
+
 
 <?php
 $str = "Apples and bananas.";
