@@ -1,6 +1,6 @@
 <?php
 echo "1st Line\n";
-echo "2nd Line
+echo "2nd Line.";
 ?>
 
 PHP is an acronym for "PHP: Hypertext Preprocessor"
