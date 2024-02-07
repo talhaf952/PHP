@@ -350,6 +350,6 @@ $pattern = "/ba(na){2}/i";
 echo preg_match($pattern, $str); // Outputs 1
 ?>
 
-
+//4 hours 3 feb
 //5 hours 4 fEB
 //5 hours 6 feb
